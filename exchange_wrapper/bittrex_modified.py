@@ -2,16 +2,16 @@
    See https://bittrex.com/Home/Api
 """
 
-import time
-import hmac
-import hashlib
+# import time
+# import hmac
+# import hashlib
 # try:
     # from urllib import urlencode
     # from urlparse import urljoin
 # except ImportError:
     # from urllib.parse import urlencode
     # from urllib.parse import urljoin
-import requests
+# import requests
 
 # try:
     # from Crypto.Cipher import AES
@@ -20,11 +20,11 @@ import requests
 # except ImportError:
     # encrypted = False
 
-BUY_ORDERBOOK = 'buy'
-SELL_ORDERBOOK = 'sell'
-BOTH_ORDERBOOK = 'both'
+# BUY_ORDERBOOK = 'buy'
+# SELL_ORDERBOOK = 'sell'
+# BOTH_ORDERBOOK = 'both'
 
-BASE_URL = 'https://bittrex.com/api/v1.1/%s/'
+# api_url = 'https://bittrex.com/api/v1.1/%s/'
 
 MARKET_SET = {
     'getopenorders',
@@ -105,7 +105,7 @@ class Bittrex(object):
         elif method in ACCOUNT_SET:
             method_set = 'account'
 
-        request_url = (BASE_URL % method_set) + method + '?'
+        request_url = (api_url % method_set) + method + '?'
 
         if method_set != 'public':
             request_url += 'apikey=' + self.api_key + "&nonce=" + nonce + '&'
