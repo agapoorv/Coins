@@ -26,25 +26,25 @@
 
 # api_url = 'https://bittrex.com/api/v1.1/%s/'
 
-MARKET_SET = {
-    'getopenorders',
-    'cancel',
-    'sellmarket',
-    'selllimit',
-    'buymarket',
-    'buylimit'
-}
-
-ACCOUNT_SET = {
-    'getbalances',
-    'getbalance',
-    'getdepositaddress',
-    'withdraw',
-    'getorderhistory',
-    'getorder',
-    'getdeposithistory',
-    'getwithdrawalhistory'
-}
+# MARKET_SET = {
+#     'getopenorders',
+#     'cancel',
+#     'sellmarket',
+#     'selllimit',
+#     'buymarket',
+#     'buylimit'
+# }
+#
+# ACCOUNT_SET = {
+#     'getbalances',
+#     'getbalance',
+#     'getdepositaddress',
+#     'withdraw',
+#     'getorderhistory',
+#     'getorder',
+#     'getdeposithistory',
+#     'getwithdrawalhistory'
+# }
 
 
 # def encrypt(api_key, api_secret, export=True, export_fn='secrets.json'):
