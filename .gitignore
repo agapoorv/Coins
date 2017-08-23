@@ -2,11 +2,7 @@
 .ipynb_checkpoints
 
 # API keys
-*coin_profile.*
 *rc.*
-api_keys.json
-
-# API Key location
-API_keys
+*api_keys*.*
 
 
