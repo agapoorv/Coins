@@ -1,7 +1,7 @@
 {
 "BTRX":
 	{
-	"URL":"https://bittrex.com/api/v1.1/%s/"
+	"URL":"https://bittrex.com/api/v1.1/"
 	},
 "GDAX":
 	{
