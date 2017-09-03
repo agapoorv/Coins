@@ -6,5 +6,9 @@
 "GDAX":
 	{
 	"URL":"https://api.gdax.com/"
-	}
+	},
+"CNBS":
+    {
+    "URL":"https://api.coinbase.com/v2/"
+    }
 }
